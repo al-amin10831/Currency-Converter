@@ -1,0 +1,95 @@
+body{
+	background-color:#f0f0f0;
+}
+
+
+ h2 {
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.input-area {
+    text-align: center;
+}
+.output-area {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+select#inputCurrency {
+    font-size: 25px;
+    border-radius: 30px;
+    color: white;
+    background: grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input#firstCurrency {
+    margin-left: 20px;
+    background: grey;
+    font-size: 25px;
+    border-radius: 50px;
+    text-align: center;
+}
+select#OutputCurrency {
+	
+	font-size: 25px;
+    border-radius: 30px;
+    color: white;
+    background: grey;
+	padding-left: 5px;
+    padding-right: 5px;
+}
+input#secondCurrency {
+	margin-left: 20px;
+    background: grey;
+    font-size: 25px;
+    border-radius: 50px;
+	text-align: center;
+}
+
+.content h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    background: blue;
+    margin-bottom: 70px;
+	margin-top:30px;
+}
+
+
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.copyright-text p {
+    text-align: center;
+    color: #767779;
+    font-size: 13px;
+    color: blue;
+}
+
+.copyright-area {
+    padding: 30px;
+    border-top:1px solid #23262c;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+   margin: 0; 
+}

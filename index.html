@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+ <meta charset ="UTF-8">
+ <title>Welcome to Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class="content">
+	 <h1>Currency Converter</h1>
+	</div>
+
+	<h2>Select Currency</h2>
+
+ <div class="input-area">
+	
+		 <select name="currency" id="inputCurrency" onchange="firstToSecond()" onclick="firstToSecond()" oninput="firstToSecond()" >
+		 
+			<option value="taka">Bangladeshi Taka</option>
+			<option value="Ringgit">Malaysian Ringgit</option>
+			<option value="Dollar">Us dollar</option>
+			<option value="Riyal">Saudi Riyal</option>
+			
+		 </select>
+		 
+		 
+		 <input oninput="firstToSecond()" onchange="firstToSecond() " type="number" id="firstCurrency"  type="number" />
+ </div>
+ 
+ <h2>Convert Currency</h2>
+ 
+ 
+ <div class="output-area">
+ 
+	 <select name="currency" id="OutputCurrency" onchange="firstToSecond()" onclick="firstToSecond()" oninput="firstToSecond()">
+	 
+		<option value="taka1">Bangladeshi Taka</option>
+		<option value="Ringgit2">Malaysian Ringgit</option>
+		<option value="Dollar3">Us dollar</option>
+		<option value="Riyal4">Saudi Riyal</option>
+		
+	 </select>
+		<input type="number"  id="secondCurrency" type="number" />
+	
+</div>
+	
+	
+	
+	
+	<div class="copyright-area">
+	  <div class="container">
+		 <div class="copyright-text">
+		   <p> Copyright @2021 Design  By Al Amin.All Rights reserved.</p>
+		 </div>
+	  </div>
+</div>
+	
+	<script src="main.js"></script>
+	
+ 
+
+
+</body>
+</html>
